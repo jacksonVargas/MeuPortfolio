@@ -1,4 +1,4 @@
-![port3](https://github.com/jacksonVargas/Portfolio/assets/93093923/0c7a08fc-f102-4606-add5-87f1bc2dd09b)
+![port3](https://github.com/jacksonVargas/MeuPortfolio/assets/93093923/8acf19bf-c5c6-4237-a00d-cdd0cb446912)
 
 
 <h3>👨‍💻 Meu Portfolio</h3>
@@ -13,7 +13,7 @@
 <p>- CSS</p>
 <p>- JavaScript</p>
 
-<h3>🛠 Veja o projeto no github pages <a href="https://jacksonvargas.github.io/Portfolio/">clicando aqui</a></h3>
+<h3>🛠 Veja o projeto no github pages <a href="https://jacksonvargas.github.io/MeuPortfolio/">clicando aqui</a></h3>
 
 
 
