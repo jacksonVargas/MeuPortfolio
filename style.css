@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+	margin	: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: royalblue;
+}
+
+body {
+  background: rgb(0, 4, 14);
+}
+
+main {
+  position: absolute;
+  width: calc(100% - 280px);
+  left: 280px;
+  padding: 0 25px;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 100%;
+  max-width: 280px;
+  min-height: 100vh;
+  position: fixed;
+  z-index: 1;
+  background: black;
+  padding: 20px 0px;
+  overflow: hidden;
+  transition: .3s;
+}
+  
+.logo {
+	margin: 0 15px;
+}
+  
+.logo a {
+	color: white;
+	font-size: 1.8rem;
+	font-weight: 500;
+	white-space: nowrap;
+}
+
+.logo i {
+	margin-right: 10px;
+	color: royalblue;
+}
+
+.logo a span {
+	color: royalblue;
+}
+
+.sidebar ul {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+	white-space: nowrap;
+}
+
+.sidebar ul a {
+	width: 100%;
+	color: royalblue;
+	font-size: 1rem;
+	text-transform: capitalize;
+	padding: 15px;
+}
+  
+.sidebar ul a:hover {
+	background: rgb(0, 4, 14);
+	color: white;
+}
+  
+.sidebar i {
+	margin-right: 15px;
+}
+
+.icons-sidebar {
+	position: absolute;
+	bottom: 30px;
+	left: 15px;
+	display: flex;
+	align-items: center;
+}
+  
+.icons-sidebar a {
+	color: royalblue;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+  
+.icons-sidebar a:hover {
+	color: white;
+}
+
+header {
+	width: 100%;
+	padding: 10px 10px;
+	background: black;
+	position: fixed;
+	z-index: 1;
+	display: none;
+}
+
+.btn {
+	display: none;
+}
+
+.nav {
+  display: none;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo h3 {
+	color: #777;
+	text-shadow: 1px 1px #777;
+	font-size: 2rem;
+	font-weight: 500;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.logo h3 span {
+	color: royalblue;
+	text-shadow: 1px 1px royalblue;
+}
+
+.menu ul {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.menu ul li {
+	position: relative;
+}
+
+.menu ul li a {
+	color: #777;
+	font-size: 1rem;
+	margin-left: 25px;
+	text-transform: capitalize;
+}
+
+.menu ul li a:hover {
+	color: royalblue;
+}
+
+/* header */
+
+.home {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.text h3 {
+	color: #777;
+	text-shadow: 1px 1px #777;
+	font-size: 2.3rem;
+	font-weight: bold;
+}
+
+.text h1 {
+	color: #777;
+	text-shadow: 1px 1px #777;
+	font-size: 2.8rem;
+	font-weight: bold;
+}
+
+.text h1 span {
+	color: royalblue;
+	text-shadow: 1px 1px royalblue;
+}
+
+.slide {
+	color: #777;
+	font-size: 1.4rem;
+	font-weight: bold;
+	border-right: 2px solid #777;
+	margin: 0 auto;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.animation {
+	animation: cursor 700ms steps(40) infinite normal, typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing {
+	from {
+			width: 0;
+	}
+
+	to {
+			width: 26rem;
+	}
+}
+
+@keyframes cursor {
+	from {
+			border-right-color: #777;
+	}
+
+	to {
+			border-right-color: transparent;
+	}
+}
+
+.text a {
+	padding: 11px 25px;
+	background: royalblue;
+	border-radius: 5px;
+	color: #fff;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: .3s;
+	box-shadow: 3px 3px 3px royalblue;
+}
+
+.text a:hover {
+	background: black;
+	box-shadow: 3px 3px 3px black;
+}
+
+/* section home */
+
+.container {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.text-about h3 {
+	color: #777;
+	text-shadow: 1px 1px #777;
+	font-size: 2.5rem;
+	letter-spacing: 1px;
+}
+
+.text-about span {
+	position: absolute;
+	width: 80px;
+	height: 5px;
+	background: #777;
+}
+
+.text-about p {
+	margin-top: 40px;
+	color: #777;
+	font-size: 1.1rem;
+	max-width: 500px;
+	margin-bottom: 50px;
+}
+
+.text-about a {
+	padding: 11px 25px;
+	background: royalblue;
+	border-radius: 5px;
+	color: #fff;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: .3s;
+	box-shadow: 3px 3px 3px royalblue;
+}
+
+.text-about a:hover {
+	background: black;
+	box-shadow: 3px 3px 3px black;
+}
+
+.image-about img {
+	width: 100%;
+	max-width: 400px;
+	display: none;
+}
+
+/* section about */
+
+.container-skills {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 30px;
+}
+
+.title {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.title h3 {
+	color: royalblue;
+	font-size: 2.7rem;
+	font-weight: 500;
+	text-transform: capitalize;
+	pointer-events: none;
+}
+
+.card {
+	width: 100%;
+	max-width: 280px;
+	min-height: 60vh;
+	background: black;
+	border-radius: 3px;
+	box-shadow: 5px 5px 5px black;
+	text-align: center;
+	padding: 15px;
+	margin: 15px auto;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+}
+
+.card i {
+	font-size: 100px;
+}
+
+.card p {
+	color: #777;
+	font-size: 1rem;
+	margin-top: 40px;
+}
+
+/* section skills */
+
+.container-projects {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.box {
+	width: 100%;
+	background: black;
+	border-radius: 5px;
+	margin: 10px auto;
+	box-shadow: 0 0 5px black;
+	transition: .3s;
+	display: flex;
+}
+
+.box:hover {
+	opacity: .7;
+}
+
+.box img {
+	width: 100%;
+	height: 100%;
+	max-width: 700px;
+}
+
+.box .text-projects {
+	width: 100%;
+	margin-left: 15px;
+	padding: 10px;
+}
+
+.text-projects h3 {
+	color: white;
+	font-size: 1.7rem;
+	font-weight: 500;
+	pointer-events: none;
+	margin-bottom: 10px;
+}
+
+.text-projects p {
+	color: #999;
+	pointer-events: none;
+	margin-bottom: 5px;
+}
+
+/* section projects */
+
+footer {
+	width: 100%;
+	padding: 30px 100px;
+	background: black;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	display: none;
+}
+
+.copy p {
+	color: #777;
+	font-size: 1rem;
+	pointer-events: none;
+}
+
+.icons-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icons-footer a {
+	color: #777;
+	font-size: 1.2rem;
+	cursor: pointer;
+	margin-left: 35px;
+}
+
+.icons-footer a:hover {
+	color: royalblue;
+}
+
+/* layout responsivo */
+
+@media (max-width: 1000px) {
+	.container-projects {
+		margin: 0 auto;
+	}
+	
+	.box {
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 800px) {
+	.hide {
+		width: 0px;
+	}
+
+	main {
+		width: calc(100%);
+		left: 0px;
+		padding: 0 15px;
+	}
+
+	header {
+		display: block;
+	}
+
+	.btn {
+		display: block;
+		position: relative;
+		width: 25px;
+		height: 25px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+}
+
+	.btn::before {
+		position: absolute;
+		content: '';
+		width: 20px;
+		height: 2px;
+		background: white;
+		transform: translateY(-6px);
+		box-shadow: 0 6px 0 white;
+		transition: .5s;
+	}
+
+	.btn::after {
+		position: absolute;
+		content: '';
+		width: 20px;
+		height: 2px;
+		background: white;
+		transform: translateY(6px);
+		transition: .5s;
+	}
+
+	.btn.active::before {
+		transform: translateY(0px) rotate(-45deg);
+		box-shadow: 0 0px 0 white;
+	}
+
+	.btn.active::after {
+		transform: translateY(0px) rotate(45deg);
+	}
+}
+
+@media (max-width: 650px) {
+	.menu .logo h3 {
+		font-size: 1.6rem;
+	}
+
+	.text h3 {
+		font-size: 1.5rem;
+	}
+
+	.text h1 {
+		font-size: 2.3rem;
+	}
+
+	.animation {
+		font-size: 1.2rem;
+	}
+
+	@keyframes typing {
+		from {
+				width: 0;
+		}
+	
+		to {
+				width: 23rem;
+		}
+	}
+
+	.title h3 {
+		font-size: 2.3rem;
+	}
+}
+
+@media (max-width: 395px) {
+	.animation {
+		font-size: 1.1rem;
+	}
+
+	@keyframes typing {
+		from {
+				width: 0;
+		}
+	
+		to {
+				width: 21rem;
+		}
+	}
+
+	.text h3 {
+		font-size: 1.3rem;
+	}
+
+	.text h1 {
+		font-size: 2.1rem;
+	}
+}
+
+@media (max-width: 370px) {
+	.title h3 {
+		font-size: 2rem;
+	}
+
+	.text-about h3 {
+		font-size: 1.7rem;
+	}
+
+	.text-about p {
+		font-size: 1rem;
+	}
+}
