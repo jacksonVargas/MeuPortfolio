@@ -8,7 +8,7 @@ export default function About() {
 
         <div className='w-full flex items-center gap-5 py-8'>
           <div className='flex-1'>
-            <p className='text-zinc-400'>
+            <p className='text-zinc-400 text-[1rem]'>
               Olá! meu nome é Jackson Vargas sou desenvolvedor web front end, meu foco principal é criar layouts modernos e de alto desempenho
               para o usuário final. Nesse portfolio você verá algumas das minhas habilidades e alguns projetos que desenvolvi ao longo dos anos.
               <br /> <br />
