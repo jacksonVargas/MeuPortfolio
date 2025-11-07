@@ -15,7 +15,7 @@ export default function About() {
               Aqui estão algumas tecnologias com as quais tenho trabalhado recentemente:
 
               <br /> <br />
-            </p>
+            </p> 
 
             <div className='flex items-center gap-2'>
               <span className='shadow-sm shadow-blue-400 text-zinc-400 py-1 px-3 rounded cursor-default text-sm'>React</span>
