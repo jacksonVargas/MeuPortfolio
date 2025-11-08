@@ -13,12 +13,10 @@ export default function Projects() {
             projects.map((item) => (
               <div className='flex flex-wrap items-center gap-5 p-5 shadow-sm shadow-blue-400 rounded' key={item.id}>
                 <div className='bg-[#111] rounded'>
-                  {
-                    <img
-                      src={item.image}
-                      className='w-full h-full object-fill'
-                    />
-                  }
+                  <img
+                    src={item.image}
+                    className='w-full h-full object-fill'
+                  />              
                 </div>
 
                 <div className='flex flex-col gap-1'>
