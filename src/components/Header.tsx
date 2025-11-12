@@ -6,7 +6,7 @@ function Header() {
 
   return (
     <>
-      <header className='fixed z-1 w-full py-3 px-5 md:px-20 lg:px-50 border-b border-b-zinc-700 bg-black'>
+      <header className='fixed z-1 w-full py-3 px-5 md:px-20 lg:px-50 border-b border-b-zinc-700 bg-[#090a15]'>
         <div className='flex justify-between items-center'>
           <a href="#" className='text-zinc-300 hover:text-zinc-400 text-2xl font-semibold'>
             &lt;Dev /&gt;
@@ -26,7 +26,7 @@ function Header() {
       </header>
 
       {isOpen && (
-        <div className='fixed z-1 top-15 w-full border-b border-b-zinc-700 bg-black py-3'>
+        <div className='fixed z-1 top-15 w-full border-b border-b-zinc-700 bg-[#090a15] py-3'>
           <ul className='flex flex-col gap-8 px-5'>
             <a onClick={() => setIsOpen(!isOpen)} className='text-zinc-300 text-sm hover:text-zinc-400' href="#sobre">Sobre</a>
             <a onClick={() => setIsOpen(!isOpen)} className='text-zinc-300 text-sm hover:text-zinc-400' href="#habilidades">Habilidades</a>
