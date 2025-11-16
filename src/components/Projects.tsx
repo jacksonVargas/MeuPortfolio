@@ -17,7 +17,7 @@ export default function Projects() {
                     src={item.image}
                     className='w-full h-full object-fill'
                   />              
-                </div>
+                </div> 
 
                 <div className='flex flex-col gap-1'>
                   <h3 className='cursor-default text-zinc-300 text-3xl'>{item.title}</h3>

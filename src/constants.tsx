@@ -17,5 +17,14 @@ export const projects: Project[] = [
     tags: ['Next', 'Tailwind'],
     gitUrl: 'https://github.com/jacksonVargas/landingPageClinica',
     demoUrl: 'https://landing-page-clinica-kohl.vercel.app/',
+  },
+  {
+    id: 2,
+    title: 'Página de Vendas',
+    description: 'Uma página de vendas para um e-book de emagrecimento',
+    image: 'assets/image-pagina-venda.png',
+    tags: ['React', 'Tailwind'],
+    gitUrl: 'https://github.com/jacksonVargas/pagina_de_venda_ebook',
+    demoUrl: 'https://pagina-de-venda-gold.vercel.app/'
   }
 ]
